@@ -8,4 +8,4 @@ while True:
     c = mc.getBlock(x , y - 1, z+1 )
     d = mc.getBlock(x,y-1,z -1)
     if a == 0 or b==0 or c==0 or d==0:
-        mc.setBlocks(x+1,y-1,z+1,x-1,y-1,z-1,20)
+        mc.setBlocks(x+1,y-1,z+1,x-1,y-1,z-1,213)
